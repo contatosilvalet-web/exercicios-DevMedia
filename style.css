@@ -1,0 +1,70 @@
+html {
+    background-color: #0099B9;
+}
+
+.foto-livro {
+    width: 250px;
+    height: 350px;
+    display: block;
+    margin: 10px auto;
+}
+
+.foto-autora {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: 10px auto;
+}
+
+section {
+    margin-bottom: 20px;
+    font-family: 'Arial';
+    color: #413733;
+    padding: 20px;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px 30px;
+    border: 2px solid #413733;
+    background-color: #ECECEC;
+}
+
+section h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #0099B9;
+}
+
+section h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+section p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.botao-comprar {
+    display: inline-block;
+    background-color: #0099B9;
+    color: #413733;
+    padding: 12px 45px;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin: 20px auto;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.botao-comprar:hover {
+    background-color: #00E2FC;
+    color: #413733;
+}
+
+span {
+    font-weight: bold;
+}
