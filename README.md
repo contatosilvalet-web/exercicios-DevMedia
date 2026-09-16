@@ -1,4 +1,4 @@
-# Projetos plataforma DevMedia
+# Projetos HTML e CSS ministrados pela plataforma DevMedia.
 
 ### Projeto 01
 #### Parque Estadual Ilha Bela
@@ -29,6 +29,3 @@
 
 ### Projeto 10 
 #### Website para um provedor de hospedagem
-
-### Javascript
-#### Projeto 01 - Estruturas Condicionais - Chuva de Meteoros
