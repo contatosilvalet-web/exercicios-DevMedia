@@ -1,0 +1,585 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #fff; 
+    width: 100%;
+}
+
+.container-topo {
+    max-width: 1024px;        
+    margin: 0 auto;          
+    padding: 35px 0px;         
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 48px;
+    height: auto;
+}
+
+/* PÁGINA INICIAL */
+
+.logo h3 {
+    color: #000000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.logo p span {
+    color: #2f86d6;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: #233032;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #2f86d6;
+}
+
+.secao-banner {
+    width: 100%;
+    background-color: #2f86d6;      
+}
+
+.container-banner {
+    max-width: 1024px;              
+    margin: 0 auto;                 
+    padding: 180px 0px;             
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;                 
+}
+
+.banner-textos {
+    width: 470px;
+    max-width: 470px;
+}
+
+.banner-destaque {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.banner-textos h2 {
+    font-size: 38px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-descricao {
+    font-size: 16px;
+    line-height: 1.5;
+    opacity: 0.9;
+}
+
+.banner-img {
+    width: 50%;
+    max-width: 50%;
+    height: auto;
+    display: block;
+}
+
+.secao-anuncio {
+    width: 100%;
+}
+
+.container-anuncio {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 40px 0px;             
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.texto-anuncio {
+    width: 600px;
+    max-width: 600px;
+    color: #ffffff;
+}
+
+.texto-anuncio h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 6px;
+    line-height: 1.2;
+}
+
+.texto-anuncio p {
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0.95;
+}
+
+.btn-anuncio {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 28px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.btn-anuncio:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+}
+
+.icone-foguete {
+    width: 18px;
+    height: auto;
+}
+
+.anuncio-escuro {
+    background-color: #233032;
+}
+
+.btn-azul {
+    background-color: #2f86d6;
+}
+
+.anuncio-azul {
+    background-color: #2f86d6;
+}
+
+.btn-escuro {
+    background-color: #233032;
+}
+
+.secao-informacoes {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.container-informacoes {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 100px 0px;             
+}
+
+.titulo-informacoes {
+    max-width: 900px;
+    margin: 0 auto 60px auto;       
+    text-align: center;
+}
+
+.titulo-informacoes h2 {
+    color: #233032;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.titulo-informacoes h3 {
+    color: #233032;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.titulo-informacoes h3 span {
+    color: #2f86d6;                
+}
+
+.cards-informacoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.card-item {
+    width: 33%;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.card-item img {
+    height: 64px;                   
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.card-item h4 {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.card-item p {
+    color: #6a6a6a;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.tabela-de-precos {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.tabela-de-precos h2 {
+    font-size: 26px;
+    color: #000000;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.tabela-de-precos h2 span {
+    color: #2f86d6;
+}
+
+.tabela-de-precos caption {
+    display: none;
+}
+
+.tabela-de-precos table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px rgba(47, 134, 214, 1);
+}
+
+.tabela-de-precos th {
+    padding: 30px 15px 20px 15px;
+    font-weight: normal;
+    vertical-align: top;
+    width: 25%;
+}
+
+.tabela-de-precos th h3 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+.tabela-de-precos th img {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+.tabela-de-precos th p {
+    font-size: 12px;
+    color: #a8a4a4;
+}
+
+.tabela-de-precos td {
+    padding: 16px 10px;
+    font-size: 13px;
+    color: #000000;
+    font-weight: 600;
+    border-top: 1px solid #f0f0f0;
+}
+
+.tabela-de-precos tbody tr:nth-child(even) {
+    background-color: #fbfbfb;
+}
+
+.rodape {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.rodape-conteudo {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.rodape-marca {
+    width: 320px;
+    margin: 0 auto 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.rodape-marca img {
+    height: 48px;
+    width: auto;
+}
+
+.rodape-marca h3 {
+    color: #000000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.rodape-marca p span {
+    color: #2f86d6;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.rodape-contatos p {
+    color: #233032;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+.rodape-contatos .copyright {
+    color: #a8a4a4;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.rodape-creditos {
+    background-color: #f6f6f6;
+    border-top: 1px solid #e5e5e5;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.rodape-creditos p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #233032;
+}
+
+.rodape-creditos p span {
+    color: #2f86d6;
+    font-weight: 700;
+}
+
+.rodape-creditos a {
+    text-decoration: none; 
+}
+
+.rodape-creditos a span {
+    color: #2f86d6;       
+    font-weight: 700;
+    transition: opacity 0.2s ease;
+}
+
+.rodape-creditos a:hover span {
+    opacity: 0.8;          
+}
+
+/* PÁGINA DE PREÇOS */
+header.header-precos {
+    background-color: #2f86d6; 
+    width: 100%;
+}
+
+header.header-precos .logo h3 {
+    color: #000000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+header.header-precos .logo p span {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+header.header-precos nav {
+    display: flex;
+    gap: 25px;
+}
+
+header.header-precos nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    transition: opacity 0.2s ease;
+}
+
+header.header-precos nav a:hover {
+    opacity: 0.8;
+}
+
+.secao-tabela-precos {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.container-tabela {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 100px 0px;           
+}
+
+.tabela-comparativa {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.tabela-comparativa caption {
+    display: none;
+}
+
+.tabela-comparativa th.coluna-recurso,
+.tabela-comparativa tbody th {
+    width: 28%;
+    text-align: left;
+    padding: 14px 20px;
+    font-size: 11px;
+    font-weight: 700;
+    color: #233032;
+    letter-spacing: 0.5px;
+    background-color: #ffffff;
+}
+
+.tabela-comparativa thead th:not(.coluna-recurso) {
+    width: 18%;
+    text-align: center;
+    padding: 24px 10px;
+    border-left: 1px solid #f0f0f0;
+    border-bottom: 2px solid #e5e7eb;
+}
+
+.tabela-comparativa thead th p {
+    font-size: 11px;
+    color: #a8a4a4;
+    font-weight: 600;
+    margin-bottom: 6px;
+    letter-spacing: 0.5px;
+}
+
+.tabela-comparativa thead th h3 {
+    font-size: 24px;
+    font-weight: 800;
+    color: #000000;
+}
+
+.tabela-comparativa td {
+    text-align: center;
+    padding: 14px 10px;
+    font-size: 11px;
+    font-weight: 600;
+    color: #233032;
+    border-left: 1px solid #f4f4f4;
+    border-top: 1px solid #f4f4f4;
+}
+
+.tabela-comparativa tbody tr:nth-child(even) th,
+.tabela-comparativa tbody tr:nth-child(even) td {
+    background-color: #fbfbfb;
+}
+
+.ponto-azul {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #2f86d6;
+    border-radius: 50%;
+}
+
+.rodape-precos {
+    width: 100%;
+    background-color: #2f86d6;     
+}
+
+.rodape-precos .rodape-conteudo {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 100px 0px;             
+    text-align: center;
+}
+
+.rodape-precos .rodape-marca {
+    width: 320px;
+    margin: 0 auto 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.rodape-precos .logo-escuro {
+    height: 48px;
+    width: auto;
+}
+
+.rodape-precos .rodape-marca h2 {
+    color: #000000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.rodape-precos .rodape-marca p span {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.rodape-precos .copyright {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.rodape-precos .rodape-creditos {
+    background-color: #ffffff;
+    padding: 20px 0px;             
+    text-align: center;
+}
+
+.rodape-precos .rodape-creditos p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #233032;
+}
+
+.rodape-precos .rodape-creditos a {
+    text-decoration: none;
+}
+
+.rodape-precos .rodape-creditos a span {
+    color: #2f86d6;
+    font-weight: 700;
+}
